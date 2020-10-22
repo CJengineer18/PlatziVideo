@@ -55,6 +55,7 @@ const Login = (props) => {
                 <input type='checkbox' id='cbox1' value='first_checkbox' />
                 Recuérdame
               </label>
+              {' '}
               <a href='/'>Olvidé mi contraseña</a>
             </div>
           </form>
@@ -70,6 +71,7 @@ const Login = (props) => {
           </section>
           <p className='login__container--register'>
             No tienes ninguna cuenta
+            {' '}
             <Link to='/register'>Regístrate</Link>
           </p>
         </section>
